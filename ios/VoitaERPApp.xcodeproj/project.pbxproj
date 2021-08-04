@@ -12,6 +12,7 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		488E5B84F288DD882ED0920F /* libPods-VoitaERPApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2338839DD298F7A1DA47DA /* libPods-VoitaERPApp.a */; };
+		713DF8C926B0146F00461296 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 713DF8C826B0146F00461296 /* Fonts */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		839135D443B24E4A8D0FB45D /* libPods-VoitaERPApp-VoitaERPAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD759B30CB325FF52582946A /* libPods-VoitaERPApp-VoitaERPAppTests.a */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,7 @@
 		2B813B1BC6547B287A6A8998 /* Pods-VoitaERPApp-VoitaERPAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoitaERPApp-VoitaERPAppTests.release.xcconfig"; path = "Target Support Files/Pods-VoitaERPApp-VoitaERPAppTests/Pods-VoitaERPApp-VoitaERPAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		2E2338839DD298F7A1DA47DA /* libPods-VoitaERPApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoitaERPApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E91DFA26C2C90D935462A07 /* Pods-VoitaERPApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoitaERPApp.debug.xcconfig"; path = "Target Support Files/Pods-VoitaERPApp/Pods-VoitaERPApp.debug.xcconfig"; sourceTree = "<group>"; };
+		713DF8C826B0146F00461296 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = "../node_modules/react-native-vector-icons/Fonts"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = VoitaERPApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD64C744E088515B0877E4CF /* Pods-VoitaERPApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoitaERPApp.release.xcconfig"; path = "Target Support Files/Pods-VoitaERPApp/Pods-VoitaERPApp.release.xcconfig"; sourceTree = "<group>"; };
 		DD759B30CB325FF52582946A /* libPods-VoitaERPApp-VoitaERPAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoitaERPApp-VoitaERPAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,7 +116,6 @@
 				139DF5A1D4489E2CD21AA904 /* Pods-VoitaERPApp-VoitaERPAppTests.debug.xcconfig */,
 				2B813B1BC6547B287A6A8998 /* Pods-VoitaERPApp-VoitaERPAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -128,6 +129,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				713DF8C826B0146F00461296 /* Fonts */,
 				13B07FAE1A68108700A75B9A /* VoitaERPApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* VoitaERPAppTests */,
@@ -243,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				713DF8C926B0146F00461296 /* Fonts in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);

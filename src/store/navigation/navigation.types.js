@@ -1,0 +1,1 @@
+export const SET_NAVIGATION_REF = 'SET_NAVIGATION_REF';
